@@ -15,11 +15,7 @@
 # #SBATCH --nodes=1                     # Request 1 node
 # #SBATCH --ntasks-per-node=2           # Run 2 tasks per node
 # #SBATCH --mem-per-cpu=24000           # Request 24GB of memory per CPU
-# #SBATCH --job-name=GENN               # Set the job name to GENN
-# #SBATCH --account=pi-clayc            # Specify the account to charge
-# #SBATCH --mail-type=ALL               # Send email notifications for all job events
-# #SBATCH --mail-user=ashmore@rcc.uchicago.edu  # Email address for notifications
-# #SBATCH --output=slurm-%j.out         # Set the initial output file name (%j is the job ID)
+
 # 
 # # Parse named arguments
 # # Usage: sbatch script_name.sbatch ZN=1 nx=2 start=3 stop=4 step_size=5
