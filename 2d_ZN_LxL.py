@@ -46,7 +46,7 @@
 # ulimit -l unlimited
 # 
 # # Set up pyenv in read-only mode
-# export PYENV_ROOT="/project/clayc/.pyenv"
+# export PYENV_ROOT="/project/username/.pyenv"
 # export PATH="$PYENV_ROOT/versions/3.12.3/bin:$PATH"
 # 
 # # Print Python and pyenv versions to verify
